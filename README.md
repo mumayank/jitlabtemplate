@@ -8,3 +8,11 @@ plugins {
     id 'com.android.library'
 }
 ```
+
+- Remove 
+```gradle
+android {
+    defaultConfig {
+        applicationId "com.mumayank.airlocationproject" // REMOVE THIS LINE
+    }
+}
