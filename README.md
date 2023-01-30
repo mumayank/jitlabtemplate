@@ -1,3 +1,10 @@
 # jitlabtemplate
 
-jitpack.yml is the only file needed. No other changes.
+- add `jitpack.yml`
+- in lib's `build.gradle`
+
+```gradle
+plugins {
+    id 'com.android.library'
+}
+```
